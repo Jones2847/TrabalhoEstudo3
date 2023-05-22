@@ -4,7 +4,7 @@ from multiplier import multiplier
 
 def test01():
     TEST_VALUES = [1, 2, 3]
-    EXPECTED_RESULT = 7
+    EXPECTED_RESULT = 6
 
     bOK:bool =\
     EXPECTED_RESULT == multiplier(TEST_VALUES)
